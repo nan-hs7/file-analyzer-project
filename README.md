@@ -1,11 +1,13 @@
-Name: Nandita Nair
-Reg No: 24MEI10072
+Name: Nandita Nair 
+Reg No: 24MEI10072 
 Chosen software: Python
 
 **Description**
+
 the project demonstrtes Linux shell concepts using five shell scripts. Each script performs a particular task that is, display information of system, inspect package, disk auditing, log file analysis and making custom manifesto.
 
 **Script 1: System Identity Report**
+
 We are naming the file script1.sh for convenience. 
 The script is used for displaying Linus system information using bash scripting concepts such as variables, echo and command substitution to execute command and display output.
 1. Command Substitution $( ): used for running command and save output into a variable e.g., KERNEL=$(uname -r).
@@ -14,6 +16,7 @@ The script is used for displaying Linus system information using bash scripting 
 4. grep and cut: used to extract the 'pretty name' of the Linux distribution from the system files.
 
 **Script 2: FOSS package inspector**
+
 file is named script2.sh for convenience. it checks if a specified package is installed on Linuz system, displays its version and summary. It proovides a small description of its purpose.
 
 1. if-then-else: used to verify if the package exists on the system.
@@ -22,6 +25,7 @@ file is named script2.sh for convenience. it checks if a specified package is in
 4. case statement: provides clean way to map specific package names to their philosophy or description.
 
 **Script 3: Disk and permission auditor**
+
 file names as script3.sh for easy access. its a bash script and uses dir array. it is designed to audit system dictionaries. it reports owner, permissions etc.
 
 1. for DIR in "${DIRS[@]}": proper syntax to loop through every item in a Bash array.
@@ -57,9 +61,11 @@ $(whoami): dynamically inserts your system username into the filename.
 Aliases Comment: included at the top to demonstrate the concept as requested by the prompt.
 
 **How to run script:**
+
 1. Open terminal
 2. Make it executable using chmod +x *.sh
 3. run the 5 scripts
 
 **Conclusion**
+
 The project demonstrates practical use of shell scripting using Linux and helps understand the importance of tools in system managemnet and automation.
